@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),  url("https://plus.unsplash.com/premium_photo-1661551770400-a64978e8b553?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    color: #eb7620;
+}
+nav ul{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 5px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    background-color: #eb7620;
+    transition: 0.5s ease;
+}
+nav ul li .active{
+    background-color: #eb7620;
+}
+.article{
+    padding:20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+.article h1{
+    font-size: 36px;
+    color:white;
+    letter-spacing: 3px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.article p{
+    font-size: 18px;
+    color: #7e7e7e;
+    margin-bottom:20px;
+
+}
+.article .btn{
+    color: #fff;
+    padding: 12px 25px;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    text-decoration: none;
+    background-color: #f15048;
+}
+.article .btn:hover{
+    background-color: #4399fa;
+    transition: 0.5s ease;
+}
